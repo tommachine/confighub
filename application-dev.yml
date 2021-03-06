@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: 192.168.111.128:2181
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddemo?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: qq13579..
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
