@@ -1,3 +1,2 @@
-test:
- config-name: "testConfig"
- config-port: 8888
+test.config-name: testConfig
+test.config-port: 8888
