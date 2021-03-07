@@ -17,5 +17,5 @@ feign:
     enabled: true
 test:
   config-name: "testConfig"
-  config-port: 8888    
+  config-port: 8888   
 
